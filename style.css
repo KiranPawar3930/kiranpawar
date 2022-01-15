@@ -285,7 +285,7 @@ header .navbar ul li a:hover{
 }
 
 .portfolio .box-container .box{
-    height: 20rem;
+   /* height: 20rem;*/
     width:26rem;
     border-radius: 1rem;
     margin:2rem;
@@ -375,6 +375,44 @@ header .navbar ul li a:hover{
 
 
 
+
+
+
+
+
+.myskills .box-container .counter{
+    flex:1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.myskills .box-container .counter .box{
+    width:20rem;
+    background:#222;
+    text-align: center;
+    padding: 2rem;
+    margin:2rem;
+}
+.myskills .box-container .counter .box span{
+    font-size: 4rem;
+    color:var(--yellow);
+}
+.myskills .box-container .counter .box h3{
+    font-size: 2rem;
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* media queries  */
 
 @media (max-width:1200px){
@@ -435,7 +473,7 @@ header .navbar ul li a:hover{
         width:100%;
     }
 
-    .portfolio .box-container .box{
+    .myskills .box-container .box{
         width:100%;
     }
 
