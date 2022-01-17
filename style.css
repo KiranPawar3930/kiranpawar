@@ -226,7 +226,6 @@ header .navbar ul li a:hover{
     color:#fff;
 }
 
-
 .education .box-container{
     display: flex;
     align-items: center;
@@ -264,10 +263,6 @@ header .navbar ul li a:hover{
     padding: 1rem 0;
 }
 
-.education .box-container .box p span{
-    color:var(--yellow);
-}
-
 .education .box-container .box i{
     position: absolute;
     top:-1.5rem; left:-2.5rem;
@@ -280,7 +275,7 @@ header .navbar ul li a:hover{
     color:#fff;
     background:var(--yellow);
 }
-/*
+
 .portfolio .box-container{
     display: flex;
     align-items: center;
@@ -290,7 +285,7 @@ header .navbar ul li a:hover{
 }
 
 .portfolio .box-container .box{
-   /* height: 20rem;
+   /* height: 20rem;*/
     width:26rem;
     border-radius: 1rem;
     margin:2rem;
@@ -307,19 +302,18 @@ header .navbar ul li a:hover{
 .portfolio .box-container .box:hover img{
     transform: scale(1.2);
 }
-*/
+
 .contact .row{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 5rem;
 }
 
 .contact .row .content{
     flex:1 1 30rem;
     padding:4rem;
-    padding-bottom: 10rem;
+    padding-bottom: 0;
 }
 
 .contact .row form{
@@ -337,7 +331,6 @@ header .navbar ul li a:hover{
     text-transform: none;
     font-size: 1.7rem;
     width:100%;
-    
 }
 
 .contact .row form .box::placeholder{
@@ -392,7 +385,6 @@ header .navbar ul li a:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 5rem;
 }
 
 .myskills .box-container .counter .box{
