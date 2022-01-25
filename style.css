@@ -336,8 +336,8 @@ header .navbar ul li a:hover{
 .contact .row form .box{
     padding:1.5rem;
     margin:1rem 0;
-    background:#3333;
-    color:#fff;
+    background:#151515;
+    color:var(--yellow);
     text-transform: none;
     font-size: 1.7rem;
     width:100%;
@@ -345,6 +345,7 @@ header .navbar ul li a:hover{
 
 .contact .row form .box::placeholder{
     text-transform: capitalize;
+    color: #eee;
 }
 
 .contact .row form .message{
